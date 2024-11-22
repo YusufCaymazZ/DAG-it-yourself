@@ -1,0 +1,133 @@
+[2024-11-22T16:10:29.687+0000] {processor.py:186} INFO - Started process (PID=47) to work on /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:10:29.725+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hello-World-Dag.py for tasks to queue
+[2024-11-22T16:10:31.187+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:10:31.186+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:10:32.391+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:10:32.383+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Hello-World-Dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hello-World-Dag.py", line 35, in <module>
+    world_task(
+    ^^^^^^^^^^
+NameError: name 'world_task' is not defined
+[2024-11-22T16:10:32.396+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:10:32.421+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hello-World-Dag.py took 3.099 seconds
+[2024-11-22T16:11:03.287+0000] {processor.py:186} INFO - Started process (PID=112) to work on /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:11:03.288+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hello-World-Dag.py for tasks to queue
+[2024-11-22T16:11:03.290+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:11:03.290+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:11:03.308+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:11:03.303+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Hello-World-Dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hello-World-Dag.py", line 35, in <module>
+    world_task(
+    ^^^^^^^^^^
+NameError: name 'world_task' is not defined
+[2024-11-22T16:11:03.310+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:11:03.325+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hello-World-Dag.py took 0.043 seconds
+[2024-11-22T16:11:33.363+0000] {processor.py:186} INFO - Started process (PID=177) to work on /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:11:33.363+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hello-World-Dag.py for tasks to queue
+[2024-11-22T16:11:33.365+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:11:33.365+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:11:33.380+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:11:33.376+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Hello-World-Dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hello-World-Dag.py", line 35, in <module>
+    world_task(
+    ^^^^^^^^^^
+NameError: name 'world_task' is not defined
+[2024-11-22T16:11:33.383+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:11:33.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hello-World-Dag.py took 0.038 seconds
+[2024-11-22T16:12:04.322+0000] {processor.py:186} INFO - Started process (PID=242) to work on /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:12:04.323+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hello-World-Dag.py for tasks to queue
+[2024-11-22T16:12:04.325+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:12:04.325+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:12:04.342+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:12:04.338+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Hello-World-Dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hello-World-Dag.py", line 35, in <module>
+    world_task(
+    ^^^^^^^^^^
+NameError: name 'world_task' is not defined
+[2024-11-22T16:12:04.345+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:12:04.361+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hello-World-Dag.py took 0.044 seconds
+[2024-11-22T16:12:35.297+0000] {processor.py:186} INFO - Started process (PID=307) to work on /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:12:35.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hello-World-Dag.py for tasks to queue
+[2024-11-22T16:12:35.300+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:12:35.300+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:12:35.315+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:12:35.311+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Hello-World-Dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hello-World-Dag.py", line 35, in <module>
+    world_task(
+    ^^^^^^^^^^
+NameError: name 'world_task' is not defined
+[2024-11-22T16:12:35.317+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:12:35.330+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hello-World-Dag.py took 0.038 seconds
+[2024-11-22T16:13:05.386+0000] {processor.py:186} INFO - Started process (PID=372) to work on /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:13:05.387+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hello-World-Dag.py for tasks to queue
+[2024-11-22T16:13:05.389+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:13:05.388+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:13:05.408+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:13:05.404+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Hello-World-Dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hello-World-Dag.py", line 35, in <module>
+    world_task(
+    ^^^^^^^^^^
+NameError: name 'world_task' is not defined
+[2024-11-22T16:13:05.411+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:13:05.427+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hello-World-Dag.py took 0.045 seconds
+[2024-11-22T16:14:11.902+0000] {processor.py:186} INFO - Started process (PID=47) to work on /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:14:11.903+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hello-World-Dag.py for tasks to queue
+[2024-11-22T16:14:11.906+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:14:11.905+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:14:11.959+0000] {processor.py:925} INFO - DAG(s) '0-hello_to_world_dag' retrieved from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:14:12.169+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:14:12.168+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:0-hello_to_world_dag
+[2024-11-22T16:14:12.180+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:14:12.179+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:0-hello_to_world_dag
+[2024-11-22T16:14:12.188+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:14:12.188+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:0-hello_to_world_dag
+[2024-11-22T16:14:12.195+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:14:12.195+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:0-hello_to_world_dag
+[2024-11-22T16:14:12.201+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:14:12.201+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:0-hello_to_world_dag
+[2024-11-22T16:14:12.207+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:14:12.207+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:0-hello_to_world_dag
+[2024-11-22T16:14:12.214+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:14:12.214+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:0-hello_to_world_dag
+[2024-11-22T16:14:12.215+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:14:12.214+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T16:14:12.226+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:14:12.226+0000] {dag.py:3262} INFO - Creating ORM DAG for 0-hello_to_world_dag
+[2024-11-22T16:14:12.235+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:14:12.235+0000] {dag.py:4180} INFO - Setting next_dagrun for 0-hello_to_world_dag to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-22T16:14:12.256+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hello-World-Dag.py took 0.361 seconds
+[2024-11-22T16:14:42.740+0000] {processor.py:186} INFO - Started process (PID=112) to work on /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:14:42.741+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hello-World-Dag.py for tasks to queue
+[2024-11-22T16:14:42.743+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:14:42.743+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:14:42.759+0000] {processor.py:925} INFO - DAG(s) '0-hello_to_world_dag' retrieved from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:14:42.778+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:14:42.777+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T16:14:42.798+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:14:42.798+0000] {dag.py:4180} INFO - Setting next_dagrun for 0-hello_to_world_dag to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-22T16:14:42.816+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hello-World-Dag.py took 0.080 seconds
+[2024-11-22T16:15:13.423+0000] {processor.py:186} INFO - Started process (PID=185) to work on /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:15:13.424+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hello-World-Dag.py for tasks to queue
+[2024-11-22T16:15:13.426+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:15:13.426+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:15:13.441+0000] {processor.py:925} INFO - DAG(s) '0-hello_to_world_dag' retrieved from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:15:13.456+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:15:13.456+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T16:15:13.474+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:15:13.474+0000] {dag.py:4180} INFO - Setting next_dagrun for 0-hello_to_world_dag to 2024-11-22 00:00:00+00:00, run_after=2024-11-23 00:00:00+00:00
+[2024-11-22T16:15:13.490+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hello-World-Dag.py took 0.072 seconds
+[2024-11-22T16:15:43.919+0000] {processor.py:186} INFO - Started process (PID=251) to work on /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:15:43.920+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hello-World-Dag.py for tasks to queue
+[2024-11-22T16:15:43.922+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:15:43.922+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:15:43.936+0000] {processor.py:925} INFO - DAG(s) '0-hello_to_world_dag' retrieved from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:15:43.948+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:15:43.948+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T16:15:43.964+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:15:43.963+0000] {dag.py:4180} INFO - Setting next_dagrun for 0-hello_to_world_dag to 2024-11-22 00:00:00+00:00, run_after=2024-11-23 00:00:00+00:00
+[2024-11-22T16:15:43.978+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hello-World-Dag.py took 0.063 seconds
+[2024-11-22T16:16:14.480+0000] {processor.py:186} INFO - Started process (PID=316) to work on /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:16:14.481+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hello-World-Dag.py for tasks to queue
+[2024-11-22T16:16:14.483+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:16:14.482+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:16:14.494+0000] {processor.py:925} INFO - DAG(s) '0-hello_to_world_dag' retrieved from /opt/airflow/dags/Hello-World-Dag.py
+[2024-11-22T16:16:14.507+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:16:14.507+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T16:16:14.522+0000] {logging_mixin.py:190} INFO - [2024-11-22T16:16:14.522+0000] {dag.py:4180} INFO - Setting next_dagrun for 0-hello_to_world_dag to 2024-11-22 00:00:00+00:00, run_after=2024-11-23 00:00:00+00:00
+[2024-11-22T16:16:14.538+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hello-World-Dag.py took 0.062 seconds

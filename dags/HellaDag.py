@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 def hello_world():
     print("Hello World")
 
-# Default argümanlar
+# Default arguments
 default_args = {
     'owner': 'YusufCaymaz',
     'depends_on_past': False,
@@ -16,7 +16,7 @@ default_args = {
     'retry_delay': timedelta(minutes=5),
 }
 
-# DAG tanımı
+# DAG 
 with DAG(
     dag_id='0-hello_world_dag',
     default_args=default_args,
@@ -27,7 +27,7 @@ with DAG(
     tags=['example','HelloWorld'],
 ) as dag:
 
-    # Görev tanımı
+    # Task 
     hello_task = PythonOperator(
         task_id='hello_world_task',
         python_callable=hello_world,
